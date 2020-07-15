@@ -1,0 +1,95 @@
+@import url(https://fonts.google.com/specimen/Lobster+Two);
+
+html {
+    font-family: 'LobsterTwo';
+    background-color: #424242;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #4165bb;
+    padding: 10px;
+}
+
+p {
+    text-align: left;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    line-height: 5rem;
+    color: green;
+}
+
+nav {
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+a:hover {
+    color:white;
+    background-color: #9a30cc;    
+}
+
+
+div {
+    padding: 10px;
+}
+
+img {
+    width: 20%;
+    object-fit: cover;
+    object-position: top;
+    justify-content: center;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+/* Your code here */
+nav a {
+    display: float;
+}
+
+nav {
+    width: 200px
+}
+
+#photo {
+    border-radius: 50%;
+
+}
+
+header {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* boarder 
+* {
+    border: 1px solid red;
+
+} */
+
