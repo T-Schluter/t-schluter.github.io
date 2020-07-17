@@ -18,11 +18,14 @@ header {
 
 p {
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
     color: black;
     padding: 10px;
     margin: 20px;
+    border: 1px solid #4165bb;
+    line-height: 1.4;
+    
 }
 
 h2 {
@@ -43,6 +46,7 @@ nav {
     border: 1px solid black;
     background-color: grey;
     margin: 5px;
+    box-shadow: 2px 2px 2px #000;
     
 }
 
@@ -103,14 +107,12 @@ footer {
     object-fit: contain;
     object-position: top;
     justify-content: center;
-
 }
 
 header {
     margin: 20px;
     padding: 20px;
 }
-
 
 form {
     margin: 50px auto;
@@ -158,9 +160,4 @@ form {
 .form-item button {
     width: 100px;
 }
-/* boarder 
-* {
-    border: 1px solid red;
-
-} */
 
