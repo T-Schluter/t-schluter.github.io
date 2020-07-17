@@ -29,6 +29,7 @@ h2 {
     font-family: 'Lobster Two', cursive;
     line-height: 2rem;
     color: white;
+    text-align: center;
 }
 
 nav {
@@ -73,9 +74,9 @@ img {
     margin: 10px;
     padding: 10px;
     text-align: center;
-    box-shadow: 3px 3px 3px #000;;
+    box-shadow: 3px 3px 3px #000;
     background-color: white;
-    color:black
+    color:black;
 }
 
 .portfolio-item-2 {
@@ -84,9 +85,9 @@ img {
     margin: 10px;
     padding: 10px;
     text-align: center;
-    box-shadow: 3px 3px 3px #000;;
+    box-shadow: 3px 3px 3px #000;
     background-color: white;
-    color:black
+    color:black;
 }
 
     .portfolio-item-3 {
@@ -95,9 +96,9 @@ img {
         margin: 10px;
         padding: 10px;
         text-align: center;
-        box-shadow: 3px 3px 3px #000;;
+        box-shadow: 3px 3px 3px #000;
         background-color: white;
-        color:black
+        color:black;
     }
 
     .portfolio-item-4 {
@@ -106,15 +107,27 @@ img {
         margin: 10px;
         padding: 10px;
         text-align: center;
-        box-shadow: 3px 3px 3px #000;;
+        box-shadow: 3px 3px 3px #000;
         background-color: white;
-        color:black
+        color:black;
     }
 
 footer {
     text-align: center;
     padding: 10px;
     color: white;
+}
+
+@media (max-width: 1440px) {
+    body {
+        background-color: #424242;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        background-color: #424242;
+    }
 }
 
 /* Your code here */
