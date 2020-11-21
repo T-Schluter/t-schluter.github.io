@@ -3,7 +3,7 @@
 html {
     font-family: 'Lobster Two', cursive;
     background-color: #424242;
-    color: #fff;
+    color: #E5E5E5;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 
 header {
     text-align: center;
-    background-image: linear-gradient(to right, #4165bb, #9a30cc);
+    background-image: linear-gradient(to right, #0851C3, #7EAFFC);
     padding: 10px;
 }
 
@@ -23,7 +23,7 @@ p {
     color: black;
     padding: 10px;
     margin: 20px;
-    border: 1px solid #4165bb;
+    border: 1px solid #0851C3;
     line-height: 1.4;
     
 }
@@ -60,13 +60,13 @@ nav {
 }
 
 a:hover {
-    color: #9a30cc;
+    color: #0D25E7 ;
     text-decoration: underline;
 }
 
 
 .portfolio-item {
-    border: 1px solid #4165bb;
+    border: 1px solid #0851C3;
     flex-basis: 45%;
     margin: 20px;
     padding: 10px;
@@ -134,26 +134,26 @@ form {
 .form-item input,
 .form-item textarea {
     flex-basis: 50%;
-    border: 2px solid  #4165bb;;
+    border: 2px solid  #0851C3;
 }
 
 .form-item input:hover,
 .form-item textarea:hover {
-    border: 2px solid #9a30cc;
+    border: 2px solid #0D25E7;
 }
 
 .form-item input,
 .form-item textarea,
 .form-item button {
-    border: 2px solid #4165bb;;
+    border: 2px solid #0851C3;
     background-color: #FFF;
     padding: 5px;
     font-size: 18px;
 }
 
 .form-item button:hover {
-    border: 2px solid #9a30cc;
-    background-color: #9a30cc;
+    border: 2px solid #0D25E7;
+    background-color: #0D25E7;
     color: #FFF;
 }
 
